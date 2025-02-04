@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('/img/joker.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.quotes {
+    background-color: rgb(28, 29, 29);
+    height: 131px;
+    width: 611px;
+    border-radius: 12px;
+    opacity: 0.97;
+    color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-size: larger;
+    font-style: italic;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.author {
+    background-color: rgb(53, 53, 53);
+    height: 68px;
+    width: 307px;
+    border-radius: 10px;
+    opacity: 0.90;
+    color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: medium;
+    font-style: normal;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background-color: rgb(61, 61, 61);
+    height: 42px;
+    width: 148px;
+    border-radius: 13px;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+    margin: 10px;
+    opacity: 0.98;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
